@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges>
+    <!-- Horizontal edges (Row 0) -->
+    <edge id="e00_01" from="n00" to="n01" numLanes="2" speed="16.67"/>
+    <edge id="e01_00" from="n01" to="n00" numLanes="2" speed="16.67"/>
+    <edge id="e01_02" from="n01" to="n02" numLanes="2" speed="16.67"/>
+    <edge id="e02_01" from="n02" to="n01" numLanes="2" speed="16.67"/>
+    <edge id="e02_03" from="n02" to="n03" numLanes="2" speed="16.67"/>
+    <edge id="e03_02" from="n03" to="n02" numLanes="2" speed="16.67"/>
+    
+    <!-- Horizontal edges (Row 1) -->
+    <edge id="e10_11" from="n10" to="n11" numLanes="2" speed="16.67"/>
+    <edge id="e11_10" from="n11" to="n10" numLanes="2" speed="16.67"/>
+    <edge id="e11_12" from="n11" to="n12" numLanes="2" speed="16.67"/>
+    <edge id="e12_11" from="n12" to="n11" numLanes="2" speed="16.67"/>
+    <edge id="e12_13" from="n12" to="n13" numLanes="2" speed="16.67"/>
+    <edge id="e13_12" from="n13" to="n12" numLanes="2" speed="16.67"/>
+    
+    <!-- Horizontal edges (Row 2) -->
+    <edge id="e20_21" from="n20" to="n21" numLanes="2" speed="16.67"/>
+    <edge id="e21_20" from="n21" to="n20" numLanes="2" speed="16.67"/>
+    <edge id="e21_22" from="n21" to="n22" numLanes="2" speed="16.67"/>
+    <edge id="e22_21" from="n22" to="n21" numLanes="2" speed="16.67"/>
+    <edge id="e22_23" from="n22" to="n23" numLanes="2" speed="16.67"/>
+    <edge id="e23_22" from="n23" to="n22" numLanes="2" speed="16.67"/>
+    
+    <!-- Horizontal edges (Row 3) -->
+    <edge id="e30_31" from="n30" to="n31" numLanes="2" speed="16.67"/>
+    <edge id="e31_30" from="n31" to="n30" numLanes="2" speed="16.67"/>
+    <edge id="e31_32" from="n31" to="n32" numLanes="2" speed="16.67"/>
+    <edge id="e32_31" from="n32" to="n31" numLanes="2" speed="16.67"/>
+    <edge id="e32_33" from="n32" to="n33" numLanes="2" speed="16.67"/>
+    <edge id="e33_32" from="n33" to="n32" numLanes="2" speed="16.67"/>
+    
+    <!-- Vertical edges (Col 0) -->
+    <edge id="e00_10" from="n00" to="n10" numLanes="2" speed="16.67"/>
+    <edge id="e10_00" from="n10" to="n00" numLanes="2" speed="16.67"/>
+    <edge id="e10_20" from="n10" to="n20" numLanes="2" speed="16.67"/>
+    <edge id="e20_10" from="n20" to="n10" numLanes="2" speed="16.67"/>
+    <edge id="e20_30" from="n20" to="n30" numLanes="2" speed="16.67"/>
+    <edge id="e30_20" from="n30" to="n20" numLanes="2" speed="16.67"/>
+    
+    <!-- Vertical edges (Col 1) -->
+    <edge id="e01_11" from="n01" to="n11" numLanes="2" speed="16.67"/>
+    <edge id="e11_01" from="n11" to="n01" numLanes="2" speed="16.67"/>
+    <edge id="e11_21" from="n11" to="n21" numLanes="2" speed="16.67"/>
+    <edge id="e21_11" from="n21" to="n11" numLanes="2" speed="16.67"/>
+    <edge id="e21_31" from="n21" to="n31" numLanes="2" speed="16.67"/>
+    <edge id="e31_21" from="n31" to="n21" numLanes="2" speed="16.67"/>
+    
+    <!-- Vertical edges (Col 2) -->
+    <edge id="e02_12" from="n02" to="n12" numLanes="2" speed="16.67"/>
+    <edge id="e12_02" from="n12" to="n02" numLanes="2" speed="16.67"/>
+    <edge id="e12_22" from="n12" to="n22" numLanes="2" speed="16.67"/>
+    <edge id="e22_12" from="n22" to="n12" numLanes="2" speed="16.67"/>
+    <edge id="e22_32" from="n22" to="n32" numLanes="2" speed="16.67"/>
+    <edge id="e32_22" from="n32" to="n22" numLanes="2" speed="16.67"/>
+    
+    <!-- Vertical edges (Col 3) -->
+    <edge id="e03_13" from="n03" to="n13" numLanes="2" speed="16.67"/>
+    <edge id="e13_03" from="n13" to="n03" numLanes="2" speed="16.67"/>
+    <edge id="e13_23" from="n13" to="n23" numLanes="2" speed="16.67"/>
+    <edge id="e23_13" from="n23" to="n13" numLanes="2" speed="16.67"/>
+    <edge id="e23_33" from="n23" to="n33" numLanes="2" speed="16.67"/>
+    <edge id="e33_23" from="n33" to="n23" numLanes="2" speed="16.67"/>
+</edges>

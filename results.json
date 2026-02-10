@@ -1,0 +1,172 @@
+[
+  {
+    "step": 1,
+    "vehicles": 50,
+    "tasks": 92,
+    "fitness": 0.3275,
+    "latency_ms": 6025.8,
+    "energy_mj": 159192.5,
+    "load_imbalance": 0.0,
+    "served": 92,
+    "avg_aoi": 0.0,
+    "allocation": {
+      "Vehicle Cache": 39,
+      "Primary RSU": 28,
+      "Neighbor RSU/MBS": 22,
+      "Cloud": 3
+    }
+  },
+  {
+    "step": 2,
+    "vehicles": 50,
+    "tasks": 92,
+    "fitness": 0.6001,
+    "latency_ms": 11044.0,
+    "energy_mj": 482655.1,
+    "load_imbalance": 0.0,
+    "served": 92,
+    "avg_aoi": 4.8684,
+    "allocation": {
+      "Vehicle Cache": 39,
+      "Primary RSU": 30,
+      "Neighbor RSU/MBS": 15,
+      "Cloud": 8
+    }
+  },
+  {
+    "step": 3,
+    "vehicles": 50,
+    "tasks": 92,
+    "fitness": 0.5645,
+    "latency_ms": 6050.0,
+    "energy_mj": 162773.5,
+    "load_imbalance": 0.4714,
+    "served": 92,
+    "avg_aoi": 6.1786,
+    "allocation": {
+      "Vehicle Cache": 39,
+      "Primary RSU": 30,
+      "Neighbor RSU/MBS": 20,
+      "Cloud": 3
+    }
+  },
+  {
+    "step": 4,
+    "vehicles": 50,
+    "tasks": 92,
+    "fitness": 0.5067,
+    "latency_ms": 9323.6,
+    "energy_mj": 307705.3,
+    "load_imbalance": 0.0,
+    "served": 92,
+    "avg_aoi": 3.0001,
+    "allocation": {
+      "Vehicle Cache": 39,
+      "Primary RSU": 24,
+      "Neighbor RSU/MBS": 24,
+      "Cloud": 5
+    }
+  },
+  {
+    "step": 5,
+    "vehicles": 50,
+    "tasks": 92,
+    "fitness": 0.387,
+    "latency_ms": 7121.4,
+    "energy_mj": 96175.6,
+    "load_imbalance": 0.0,
+    "served": 92,
+    "avg_aoi": 2.6783,
+    "allocation": {
+      "Vehicle Cache": 33,
+      "Primary RSU": 42,
+      "Neighbor RSU/MBS": 15,
+      "Cloud": 2
+    }
+  },
+  {
+    "step": 6,
+    "vehicles": 50,
+    "tasks": 92,
+    "fitness": 0.3698,
+    "latency_ms": 6804.7,
+    "energy_mj": 173960.6,
+    "load_imbalance": 0.0,
+    "served": 92,
+    "avg_aoi": 2.6994,
+    "allocation": {
+      "Vehicle Cache": 33,
+      "Primary RSU": 30,
+      "Neighbor RSU/MBS": 27,
+      "Cloud": 2
+    }
+  },
+  {
+    "step": 7,
+    "vehicles": 50,
+    "tasks": 92,
+    "fitness": 0.3032,
+    "latency_ms": 5578.8,
+    "energy_mj": 82476.3,
+    "load_imbalance": 0.0,
+    "served": 92,
+    "avg_aoi": 2.9962,
+    "allocation": {
+      "Vehicle Cache": 33,
+      "Primary RSU": 41,
+      "Neighbor RSU/MBS": 17,
+      "Cloud": 1
+    }
+  },
+  {
+    "step": 8,
+    "vehicles": 50,
+    "tasks": 92,
+    "fitness": 0.4821,
+    "latency_ms": 8871.4,
+    "energy_mj": 405719.9,
+    "load_imbalance": 0.0,
+    "served": 92,
+    "avg_aoi": 3.2664,
+    "allocation": {
+      "Vehicle Cache": 33,
+      "Primary RSU": 36,
+      "Neighbor RSU/MBS": 18,
+      "Cloud": 5
+    }
+  },
+  {
+    "step": 9,
+    "vehicles": 50,
+    "tasks": 92,
+    "fitness": 0.4551,
+    "latency_ms": 8374.3,
+    "energy_mj": 279354.9,
+    "load_imbalance": 0.0,
+    "served": 92,
+    "avg_aoi": 4.7142,
+    "allocation": {
+      "Vehicle Cache": 33,
+      "Primary RSU": 29,
+      "Neighbor RSU/MBS": 26,
+      "Cloud": 4
+    }
+  },
+  {
+    "step": 10,
+    "vehicles": 50,
+    "tasks": 92,
+    "fitness": 0.4752,
+    "latency_ms": 8744.8,
+    "energy_mj": 258663.5,
+    "load_imbalance": 0.0,
+    "served": 92,
+    "avg_aoi": 3.3977,
+    "allocation": {
+      "Vehicle Cache": 35,
+      "Primary RSU": 33,
+      "Neighbor RSU/MBS": 21,
+      "Cloud": 3
+    }
+  }
+]
