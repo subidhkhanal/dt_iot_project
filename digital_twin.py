@@ -152,14 +152,15 @@ class DigitalTwinLayer:
                             thing_id=vid,
                             attributes={"type": "vehicle", "id": vid},
                             features={})
-                    self.ditto.update_vehicle_twin(
+                    success = self.ditto.update_vehicle_twin(
                         vehicle_id=vid,
                         x=v_data.get("x", 0), y=v_data.get("y", 0),
                         speed=v_data.get("speed", 0),
                         connected_rsu=v_data.get("connected_rsu", ""),
                         num_tasks=v_data.get("num_tasks", 0),
                         sync_time=rel_time)
-                    sync_record["ditto_synced"] += 1
+                    if success:
+                        sync_record["ditto_synced"] += 1
                 except Exception:
                     pass
 
@@ -174,13 +175,15 @@ class DigitalTwinLayer:
 
                 if self.ditto_connected:
                     try:
-                        self.ditto.update_rsu_twin(
+                        success = self.ditto.update_rsu_twin(
                             rsu_id=rid,
                             load=r_data.get("load", 0),
                             vehicles_served=r_data.get("vehicles_served", 0),
                             utilization_pct=r_data.get("utilization_pct", 0),
                             cached_tasks=r_data.get("cached_tasks", 0),
                             sync_time=rel_time)
+                        if success:
+                            sync_record["ditto_synced"] += 1
                     except Exception:
                         pass
 
