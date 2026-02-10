@@ -33,14 +33,23 @@ class DittoClient:
         self._check_connection()
 
     def _check_connection(self):
-        """Check if Ditto is reachable."""
+        """Check if Ditto is reachable and API is functional."""
         try:
             r = requests.get(f"{DITTO_BASE_URL}/health", timeout=5)
-            self.connected = r.status_code == 200
+            if r.status_code != 200:
+                self.connected = False
+                print(f"[Ditto] ✗ Health check returned {r.status_code}")
+                return
+            # Verify actual API access (health can be faked by nginx)
+            r2 = requests.get(
+                f"{self.base_url}/search/things?option=size(1)",
+                headers=HEADERS, auth=self.auth, timeout=5)
+            self.connected = r2.status_code == 200
             if self.connected:
                 print("[Ditto] ✓ Connected to Eclipse Ditto")
             else:
-                print(f"[Ditto] ✗ Health check returned {r.status_code}")
+                print(f"[Ditto] ✗ Health OK but API returned {r2.status_code}")
+                print("[Ditto]   Ditto services may still be starting — wait and retry")
         except requests.exceptions.ConnectionError:
             self.connected = False
             print("[Ditto] ✗ Cannot reach Ditto at localhost:8080")
